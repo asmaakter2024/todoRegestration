@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Confirm your email</title>
+  </head>
+  <body style="background: #9fa9b8;">
+    <!-- Preheader -->
+    <div
+      style="
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+        mso-hide: all;
+        visibility: hidden;
+      "
+    >
+      Confirm your email to complete your signup.
+    </div>
+
+    <!-- Container -->
+    <table
+      role="presentation"
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      style="border-collapse: collapse"
+    >
+      <tr>
+        <td align="center" style="padding: 24px">
+          <!-- Card -->
+          <table
+            role="presentation"
+            width="600"
+            cellpadding="0"
+            cellspacing="0"
+            style="
+              max-width: 600px;
+              width: 100%;
+              background: #ffffff;
+              border-radius: 10px;
+              overflow: hidden;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            "
+          >
+            <!-- Header -->
+            <tr>
+              <td
+                style="
+                  padding: 40px 28px;
+                  text-align: center;
+                  background: linear-gradient(135deg, #38b2ac, #0ea5e9);
+                "
+              >
+                
+                <h1
+                  style="
+                    margin: 0;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #ffffff;
+                    font-weight: 600;
+                  "
+                >
+                  Confirm Your Email
+                </h1>
+              </td>
+            </tr>
+
+            <!-- Body -->
+            <tr>
+              <td style="padding: 28px; text-align: left">
+                <p
+                  style="
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #334155;
+                  "
+                >
+                  Hi <strong>${username}</strong>,
+                </p>
+                <p
+                  style="
+                    margin: 16px 0 0 0;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #475569;
+                  "
+                >
+                  Thanks for joining us! Please confirm your email address to
+                  activate your account and get started.
+                </p>
+              </td>
+            </tr>
+
+            <!-- CTA -->
+            <tr>
+              <td align="center" style="padding: 12px 28px 28px 28px">
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="border-collapse: collapse"
+                >
+                  <tr>
+                    <td bgcolor="#14b8a6" style="border-radius: 6px">
+                      <a
+                        href="{{confirm_url}}"
+                        target="_blank"
+                        style="
+                          display: inline-block;
+                          padding: 14px 28px;
+                          font-size: 16px;
+                          color: #ffffff;
+                          text-decoration: none;
+                          font-weight: bold;
+                          border-radius: 6px;
+                          line-height: 20px;
+                        "
+                      >
+                        Confirm Email
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Fallback -->
+            <tr>
+              <td style="padding: 0 28px 24px 28px">
+                <p
+                  style="
+                    margin: 0;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #64748b;
+                  "
+                >
+                  If the button above doesn't work, copy and paste this link
+                  into your browser:
+                </p>
+                <p
+                  style="
+                    margin: 8px 0 0 0;
+                    font-size: 14px;
+                    line-height: 20px;
+                    word-break: break-all;
+                  "
+                >
+                  <a
+                    href="{{confirm_url}}"
+                    style="color: #0ea5e9; text-decoration: underline"
+                    >{{confirm_url}}</a
+                  >
+                </p>
+              </td>
+            </tr>
+
+            <!-- Divider -->
+            <tr>
+              <td style="padding: 0 28px">
+                <hr
+                  style="border: none; border-top: 1px solid #e2e8f0; margin: 0"
+                />
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                style="
+                  padding: 20px 28px;
+                  text-align: center;
+                  background: #f1f5f9;
+                "
+              >
+                <p
+                  style="
+                    margin: 0;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #94a3b8;
+                  "
+                >
+                  © {{year}} Your Company • 1234 Street Rd, Suite 100
+                </p>
+                <p
+                  style="
+                    margin: 8px 0 0 0;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #94a3b8;
+                  "
+                >
+                  <a href="#" style="color: #94a3b8; text-decoration: underline"
+                    >Unsubscribe</a
+                  >
+                  •
+                  <a href="#" style="color: #94a3b8; text-decoration: underline"
+                    >Privacy Policy</a
+                  >
+                </p>
+              </td>
+            </tr>
+          </table>
+          <!-- End Card -->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
